@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554283972741ED81002A992B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554283962741ED81002A992B /* ImagePicker.swift */; };
+		554283982741ED81002A992B /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554283962741ED81002A992B /* ImagePicker.swift */; };
+		556E19D42741B1240045D306 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556E19D32741B1240045D306 /* CloudKit.framework */; };
+		556E19D62741CCC40045D306 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E19D52741CCC40045D306 /* HomeView.swift */; };
+		556E19D72741CCC40045D306 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E19D52741CCC40045D306 /* HomeView.swift */; };
+		556E19DC2741CDD20045D306 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E19DB2741CDD20045D306 /* OtherView.swift */; };
+		556E19DD2741CDD20045D306 /* OtherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556E19DB2741CDD20045D306 /* OtherView.swift */; };
+		559850C527417F0C00893D68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559850C427417F0C00893D68 /* SettingsView.swift */; };
+		559850C627417F0C00893D68 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559850C427417F0C00893D68 /* SettingsView.swift */; };
 		55D13176272DEBFC00D99F4A /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D13175272DEBFC00D99F4A /* Tests_iOS.swift */; };
 		55D13178272DEBFC00D99F4A /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D13177272DEBFC00D99F4A /* Tests_iOSLaunchTests.swift */; };
 		55D13182272DEBFC00D99F4A /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D13181272DEBFC00D99F4A /* Tests_macOS.swift */; };
@@ -21,6 +30,10 @@
 		55D1318C272DEBFC00D99F4A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1315E272DEBFB00D99F4A /* Persistence.swift */; };
 		55D1318D272DEBFC00D99F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D1315F272DEBFC00D99F4A /* Assets.xcassets */; };
 		55D1318E272DEBFC00D99F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55D1315F272DEBFC00D99F4A /* Assets.xcassets */; };
+		55D1BA4727422716002AC467 /* AddSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1BA4627422716002AC467 /* AddSongView.swift */; };
+		55D1BA4827422716002AC467 /* AddSongView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1BA4627422716002AC467 /* AddSongView.swift */; };
+		55D1BA8627423C0C002AC467 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1BA8527423C0C002AC467 /* JSON.swift */; };
+		55D1BA8727423C0C002AC467 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D1BA8527423C0C002AC467 /* JSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +54,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		554283962741ED81002A992B /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		556E19D12741B1210045D306 /* VerboseWaffle (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "VerboseWaffle (iOS).entitlements"; sourceTree = "<group>"; };
+		556E19D32741B1240045D306 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.0.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
+		556E19D52741CCC40045D306 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		556E19DB2741CDD20045D306 /* OtherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherView.swift; sourceTree = "<group>"; };
+		559850C427417F0C00893D68 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		55D1315B272DEBFB00D99F4A /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		55D1315C272DEBFB00D99F4A /* VerboseWaffleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerboseWaffleApp.swift; sourceTree = "<group>"; };
 		55D1315D272DEBFB00D99F4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +74,8 @@
 		55D1317D272DEBFC00D99F4A /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55D13181272DEBFC00D99F4A /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		55D13183272DEBFC00D99F4A /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		55D1BA4627422716002AC467 /* AddSongView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSongView.swift; sourceTree = "<group>"; };
+		55D1BA8527423C0C002AC467 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556E19D42741B1240045D306 /* CloudKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,25 +111,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		556E19D22741B1240045D306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				556E19D32741B1240045D306 /* CloudKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		55D13154272DEBFB00D99F4A = {
 			isa = PBXGroup;
 			children = (
+				556E19D12741B1210045D306 /* VerboseWaffle (iOS).entitlements */,
 				55D13159272DEBFB00D99F4A /* Shared */,
 				55D1316B272DEBFC00D99F4A /* macOS */,
 				55D13174272DEBFC00D99F4A /* Tests iOS */,
 				55D13180272DEBFC00D99F4A /* Tests macOS */,
 				55D13165272DEBFC00D99F4A /* Products */,
+				556E19D22741B1240045D306 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		55D13159272DEBFB00D99F4A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				55D1BA4927422CEC002AC467 /* Model */,
+				55D1BA452742188A002AC467 /* Home */,
+				55D1BA442742185D002AC467 /* Settings */,
 				55D1315C272DEBFB00D99F4A /* VerboseWaffleApp.swift */,
 				55D1315D272DEBFB00D99F4A /* ContentView.swift */,
-				55D1315E272DEBFB00D99F4A /* Persistence.swift */,
-				55D1315F272DEBFC00D99F4A /* Assets.xcassets */,
-				55D1315A272DEBFB00D99F4A /* VerboseWaffle.xcdatamodeld */,
+				556E19DB2741CDD20045D306 /* OtherView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -147,6 +180,35 @@
 				55D13183272DEBFC00D99F4A /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		55D1BA442742185D002AC467 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				554283962741ED81002A992B /* ImagePicker.swift */,
+				559850C427417F0C00893D68 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		55D1BA452742188A002AC467 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				556E19D52741CCC40045D306 /* HomeView.swift */,
+				55D1BA4627422716002AC467 /* AddSongView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		55D1BA4927422CEC002AC467 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55D1315F272DEBFC00D99F4A /* Assets.xcassets */,
+				55D1315A272DEBFB00D99F4A /* VerboseWaffle.xcdatamodeld */,
+				55D1315E272DEBFB00D99F4A /* Persistence.swift */,
+				55D1BA8527423C0C002AC467 /* JSON.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,10 +369,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559850C527417F0C00893D68 /* SettingsView.swift in Sources */,
+				55D1BA8627423C0C002AC467 /* JSON.swift in Sources */,
 				55D13185272DEBFC00D99F4A /* VerboseWaffle.xcdatamodeld in Sources */,
 				55D1318B272DEBFC00D99F4A /* Persistence.swift in Sources */,
+				556E19D62741CCC40045D306 /* HomeView.swift in Sources */,
+				556E19DC2741CDD20045D306 /* OtherView.swift in Sources */,
+				554283972741ED81002A992B /* ImagePicker.swift in Sources */,
 				55D13187272DEBFC00D99F4A /* VerboseWaffleApp.swift in Sources */,
 				55D13189272DEBFC00D99F4A /* ContentView.swift in Sources */,
+				55D1BA4727422716002AC467 /* AddSongView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,10 +386,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559850C627417F0C00893D68 /* SettingsView.swift in Sources */,
+				55D1BA8727423C0C002AC467 /* JSON.swift in Sources */,
 				55D13186272DEBFC00D99F4A /* VerboseWaffle.xcdatamodeld in Sources */,
 				55D1318C272DEBFC00D99F4A /* Persistence.swift in Sources */,
+				556E19D72741CCC40045D306 /* HomeView.swift in Sources */,
+				556E19DD2741CDD20045D306 /* OtherView.swift in Sources */,
+				554283982741ED81002A992B /* ImagePicker.swift in Sources */,
 				55D13188272DEBFC00D99F4A /* VerboseWaffleApp.swift in Sources */,
 				55D1318A272DEBFC00D99F4A /* ContentView.swift in Sources */,
+				55D1BA4827422716002AC467 /* AddSongView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -475,6 +549,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VerboseWaffle (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F3MQX39TPJ;
@@ -505,6 +580,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "VerboseWaffle (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = F3MQX39TPJ;
